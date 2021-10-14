@@ -1,11 +1,68 @@
+.color1 {color: #ea5370;}
+.color2 {color: #e79341;}
+.color3 {color: #eac846;}
+.color4 {color: #efe987;}
+.color5 {color: #d6efcc;}
+
+
 .header {
-  background-color: red;
+  background-color: #e79341;
   text-align: center;
   padding: 20px;
 }
-
-.navbar ul li {
+.navigationbar {
+  background-color: #ea5370;;
+  overflow: hidden;
+}
+.navigationbar ul li {
+  
   list-style-type: none;
   float: right;
   text-decoration: none;
+  margin:auto;
+  background-color: white;
+  padding: 1em;
+  margin-right: 1em;
+  border-radius: 1;
+}
+
+.navigationbar ul li:hover {
+  
+  list-style-type: none;
+  float: right;
+  text-decoration: none;
+  margin:auto;
+  background-color: green;
+  color: red;
+  padding: 1em;
+  margin-right: 1em;
+}
+
+.petpic {
+  width: 100%;
+}
+
+#animalContainer {
+  width: 100%;
+  background-color: #faf7d6;
+  float: left;
+}
+
+.left{
+  box-sizing: border-box;
+  width: 33%;
+  float: left;
+  padding: 1em;
+}
+.center{
+  box-sizing: border-box;
+  width: 34%;
+  float: left;
+  padding: 1em;
+}
+.right{
+  box-sizing: border-box;
+  width: 33%;
+  float: left;
+  padding: 1em;
 }
