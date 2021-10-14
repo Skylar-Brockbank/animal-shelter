@@ -1,0 +1,11 @@
+.header {
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  float: right;
+  text-decoration: none;
+}
