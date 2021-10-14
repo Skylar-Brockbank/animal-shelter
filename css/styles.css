@@ -4,11 +4,18 @@
 .color4 {color: #efe987;}
 .color5 {color: #d6efcc;}
 
-
+body {
+  margin:0;
+  font-family: 'Josefin+Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #552a00;;
+}
 .header {
-  background-color: #e79341;
+  background-color: #e18a32;
   text-align: center;
   padding: 20px;
+  font-size: 25px;
+  color: rgb(250, 245, 180);
 }
 .navigationbar {
   background-color: #ea5370;;
@@ -19,11 +26,17 @@
   list-style-type: none;
   float: right;
   text-decoration: none;
-  margin:auto;
-  background-color: white;
+  /* margin:auto; */
+  background-color: #faf7d6;
   padding: 1em;
   margin-right: 1em;
-  border-radius: 1;
+  margin-bottom: 1em;
+  border-radius: .3em;
+}
+
+.navigationbar ul li a {
+  text-decoration: none;
+  color:#ea5370;
 }
 
 .navigationbar ul li:hover {
@@ -32,7 +45,7 @@
   float: right;
   text-decoration: none;
   margin:auto;
-  background-color: green;
+  background-color: rgb(54, 31, 3);
   color: red;
   padding: 1em;
   margin-right: 1em;
@@ -40,8 +53,14 @@
 
 .petpic {
   width: 100%;
+  border: solid .4em #b66d24;
+  border-radius: .5em;
 }
-
+#contentContainer{
+  width: 100%;
+  background-color: #faf7d6;
+  float: left;
+}
 #animalContainer {
   width: 100%;
   background-color: #faf7d6;
@@ -65,4 +84,43 @@
   width: 33%;
   float: left;
   padding: 1em;
+}
+.descriptionCard{
+  background-color: bisque;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+  float: right;
+  border-radius: 1em;
+}
+.card {
+  width: 90%;
+  margin: 1em auto;
+  background-color: #efe987;
+  padding: 1em;
+  border-radius: .5em;
+  overflow: hidden;
+}
+.subheading {
+  margin: 1em;
+  text-decoration: underline;
+}
+.teamMember {
+  width: 20%;
+  float: left;
+  margin-right: 1em;
+  border-radius: .2em;
+}
+
+/* RESOURCES PAGE*/
+
+.ContactCard {
+  width: 100%;
+  background-color: #faf7d6;
+  float: left;
+
+}
+
+.coninfo {
+  font-weight: 900;
 }
